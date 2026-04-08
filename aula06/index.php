@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -39,7 +39,6 @@
                     <img class="justify-content-center" src="assets/text.png" alt="...">
                 </div>
             </div>
-        </header>
         <!-- Content section-->
         <section class="py-5 sec">
             <div class="container my-5">
@@ -70,7 +69,8 @@
                     </div>
                 </div>
             </div>
-        </section class="py-5 secd">
+        </section>
+        <section class="py-5 secd">
             <div class="container my-5">
                 <div class="row justify-content-center boxc">
                     <div class="col-lg-6">
@@ -93,12 +93,27 @@
                     </div>
                 </div>
             </div>
+        </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="img-container img-fluid">
-                <img src="assets/github.png" alt="...">
-                <img src="assets/linkedin.png" alt="...">
-                <img src="assets/insta.png" alt="...">
+            <div class="social-wrapper">
+                <!-- GitHub -->
+                <a href="#" class="social-btn github">
+                    <i class="fab fa-github"></i>
+                    <span class="btn-text">GitHub</span>
+                </a>
+
+                <!-- Instagram -->
+                <a href="#" class="social-btn instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span class="btn-text">Instagram</span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="#" class="social-btn linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span class="btn-text">LinkedIn</span>
+                </a>
             </div>
         </footer>
         <!-- Bootstrap core JS-->
