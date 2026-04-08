@@ -58,7 +58,7 @@
     <div class="typewriter">
         <p>A senha ou e-mail estão incorretos. Tente novamente!</p>
     </div>
-    <a href = "formulario.php" class="btn btn-primary">Voltar</a>
+    <a href = "index.html" class="btn btn-primary">Voltar</a>
 </div>
 
 </body>

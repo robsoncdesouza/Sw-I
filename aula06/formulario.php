@@ -23,7 +23,6 @@
             padding: 40px;
             border-radius: 20px;
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
             border: 3px solid rgba(255,255,255,0.1)
         }
 
@@ -36,28 +35,46 @@
             background: linear-gradient(135deg, #04365f, rgb(104, 167, 218));
             border: none;
         }
+
+        .btnv{
+            position: fixed;
+            top: 20px;    
+            right: 20px;  
+            z-index: 1000;
+        }
+
+        .lab{
+            background: rgba(39, 26, 26, 0.16);
+        }
+
+        .lab:focus{
+            background: rgba(0, 0, 0, 0.38);
+        }
     </style>
  </head>
  <body>
-   <div class="box">
+    <section>
+        <a class="nav-link active btnv" aria-current="page" href="index.html">Voltar</a>
+    </section>
+    <div class="box">
         <h1 class="title">FORMULÁRIO DE LOGIN</h1>
         <div class="container">
             <form action="processa.php" method="POST">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email </label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+                    <input type="email" class="form-control lab" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                 
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" name="senha">
+                    <input type="password" class="form-control lab" id="exampleInputPassword1" name="senha">
                 </div>
             
-                <input  class="btn btn-primary" type="submit" value="LOGAR">
+                <input  class="btn btn-primary" type="submit" value="ENTRAR">
                 <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
             </form>
         </div>
-   </div> 
+    </div> 
     <?php
         if (isset($_GET['erro'])){
             echo"<script>alert('Email ou senha incorretos!')</script>";

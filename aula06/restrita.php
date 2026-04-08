@@ -39,6 +39,10 @@
             animation: typing 4s steps(40, end) forwards, blink 0.7s infinite;
         }
 
+        .btn{
+            background: linear-gradient(135deg, #01093a, #1f0606);
+        }
+
         @keyframes typing {
             from { width: 0 }
             to { width: 100% }
@@ -57,6 +61,7 @@
     <div class="typewriter">
         <p>Bem vindo <?php echo $nome; ?> a sua área restrita!</p>
     </div>
+    <a href = "index.html" class="btn btn-primary">Voltar</a>
 </div>
 
 </body>
