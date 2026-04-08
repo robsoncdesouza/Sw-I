@@ -3,12 +3,21 @@
     border: #04365f;
 }
 
-.intro{ 
+.intro { 
     display: flex;
-    margin: 90px;
-    padding: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
     align-items: center;
-    justify-content: center;
+    max-width: 1200px; /* Aumentei um pouco para dar respiro */
+}
+
+.divimg img {
+    height: auto;
+    object-fit: contain;
+    width: auto;
 }
 
 .box {
@@ -20,6 +29,7 @@
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     color: aliceblue;
     display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.116);
 }
 
 .sec{
@@ -88,3 +98,9 @@
   filter: grayscale(0%);    
 }
 
+@media (max-width: 460px) {
+    .divimg img{
+        max-width: 100%;
+
+    }
+}

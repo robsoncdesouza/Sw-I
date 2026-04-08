@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Security</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/meu fav.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+         <link href="css/estilo.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">SECURITY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active btn btn-primary" aria-current="page" href="formulario.php">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            <div class="text-center my-5">
+                <h1 class="text-white fs-3 fw-bolder">SUA SEGURANÇA DIGITAL COMEÇA AQUI!</h1>
+            </div>
+
+            <div class="col intro mx-auto d-flex flex-column flex-md-row justify-content-between gap-3 quadro">
+                <div class="box row justify-content-center">
+                    <p>Em um mundo cada vez mais conectado, a proteção dos seus dados não é apenas uma escolha, mas uma necessidade fundamental. A Security nasce com o propósito de ser o escudo definitivo para o seu patrimônio digital, oferecendo soluções inteligentes e personalizadas para empresas e indivíduos.
+                    Nossa missão é garantir que você navegue, transacione e armazene informações com total tranquilidade. Combinando tecnologia de ponta e uma equipe de especialistas dedicados, combatemos ameaças cibernéticas com agilidade e precisão. Na Security, acreditamos que a confiança é a base da inovação.
+                    Seja para proteger sua rede doméstica ou blindar a infraestrutura de uma grande organização, lembre-se: sua segurança digital começa aqui.</p>
+                </div>
+                <div class="col divimg">
+                    <img class="justify-content-center" src="assets/text.png" alt="...">
+                </div>
+            </div>
+        </header>
+        <!-- Content section-->
+        <section class="py-5 sec">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <h2 class="text-center h2">DESTAQUES DA EMPRESA</h2>
+                    <div class="col-lg-6 container">
+                        <div class="box container">
+                            <h3 class="h">🛡️ 1. Confiabilidade: O Escudo Ininterrupto</h3>
+                            <h6>A confiabilidade da Security baseia-se na continuidade absoluta, garantindo que sua operação permaneça protegida em qualquer cenário.</h6>
+                            <p>Monitoramento Ativo (SOC): Operação de um Centro de Operações de Segurança 24/7, garantindo que qualquer tentativa de invasão seja detectada em milissegundos.</p>
+                            <p>Redundância de Dados: Estratégias de backup e recuperação de desastres que garantem que o cliente nunca perca suas informações após um incidente.</p>
+                            <p>Transparência: Relatórios periódicos que mostram exatamente o que foi bloqueado, transformando o "invisível" em valor percebido.</p>
+                        </div>
+                        <div class="box container">
+                            <h3 class="h">🚀 2. Inovação: Antecipação de Ameaças</h3>
+                            <h6>A segurança digital é uma corrida armamentista. A Security não apenas reage, ela se antecipa.</h6>
+                            <p>Inteligência Artificial e Machine Learning: Uso de algoritmos para identificar padrões de comportamento suspeitos que antivírus comuns não conseguiriam detectar.</p>
+                            <p>Defesa Proativa: Implementação de técnicas de Ethical Hacking (testes de invasão) para encontrar vulnerabilidades antes que os criminosos as encontrem.</p>
+                            <p>Atualização Constante: Uma equipe de P&D (Pesquisa e Desenvolvimento) focada nas novas variantes de ransomware e técnicas de engenharia social.</p>
+                        </div>
+                        <div class="box container">
+                            <h3 class="h">⚙️ 3. Simplicidade: Tecnologia Humanizada</h3>
+                            <h6>O maior erro da segurança é ser tão complexa que acaba sendo ignorada pelo usuário. A Security foca na usabilidade.</h6>
+                            <p>Interface Intuitiva: Painéis de controle (dashboards) claros, onde o cliente entende seu nível de proteção sem precisar ser um especialista em TI.</p>
+                            <p>Implementação "Plug and Play": Soluções que se integram facilmente aos sistemas que o cliente já utiliza, sem causar lentidão ou travamentos.</p>
+                            <p>Suporte Consultivo: Em vez de manuais densos, a empresa oferece especialistas que falam a língua do cliente, facilitando a tomada de decisão.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section class="py-5 secd">
+            <div class="container my-5">
+                <div class="row justify-content-center boxc">
+                    <div class="col-lg-6">
+                        <h2>CONTATO</h2>
+                        <div>
+                            <h3>📍 Endereço:</h3>
+                            <p>Avenida das Nações Digitais, 1024 – Edifício Cyber Tower, 14º Andar</p>
+                            <p>Centro Tecnológico – São Paulo, SP | CEP: 01234-567</p>
+                        </div>
+                        <div>
+                            <h3>📞 Telefone e Emergência 24h:</h3>
+                            <p>Central de Suporte: (11) 4004-9876</p>
+                            <p>Linha Ética e Incidentes: 0800 722 0001</p>
+                        </div>
+                        <div>
+                            <h3>✉️ E-mail:</h3>
+                            <p>Comercial: contato@security.com.br</p>
+                            <p>Suporte Técnico: sos@security.com.br</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="img-container img-fluid">
+                <img src="assets/github.png" alt="...">
+                <img src="assets/linkedin.png" alt="...">
+                <img src="assets/insta.png" alt="...">
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

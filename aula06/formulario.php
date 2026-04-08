@@ -54,7 +54,7 @@
  </head>
  <body>
     <section>
-        <a class="nav-link active btnv" aria-current="page" href="index.html">Voltar</a>
+        <a class="nav-link active btnv" aria-current="page" href="index.php">Voltar</a>
     </section>
     <div class="box">
         <h1 class="title">FORMULÁRIO DE LOGIN</h1>
