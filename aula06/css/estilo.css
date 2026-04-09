@@ -76,6 +76,12 @@
     margin: auto;
 }
 
+.social{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .img-container {
   display: flex;           
   justify-content: center; 
@@ -98,16 +104,6 @@
   filter: grayscale(0%);    
 }
 
-.social-wrapper {
-  display: flex;
-  gap: 15px;
-  padding: 40px;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-}
-
 /* =========================================
        Button Styling
        ========================================= */
@@ -122,12 +118,16 @@
   border-radius: 50px;
   text-decoration: none;
   /* Default state colors */
-  color: #9d8dbb;
+  color: #ffffff;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
+}
+
+.imgd{
+  size: 22px;
 }
 
 .social-btn i {

@@ -10,7 +10,8 @@
         <link rel="icon" type="image/x-icon" href="assets/meu fav.png" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-         <link href="css/estilo.css" rel="stylesheet" />
+        <link href="css/estilo.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -96,7 +97,7 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="social-wrapper">
+            <div class="justify-content-center social">
                 <!-- GitHub -->
                 <a href="#" class="social-btn github">
                     <i class="fab fa-github"></i>
