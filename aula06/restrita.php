@@ -61,7 +61,7 @@
             <div class="typewriter">
                 <p>Bem vindo <?php echo $nome; ?> a sua área restrita!</p>
             </div>
-            <a href = "index.php" class="btn btn-primary">Voltar</a>
+            <a href = "demo/index.html" class="btn btn-primary">Continuar</a>
         </div>
 
     </body>

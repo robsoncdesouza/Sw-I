@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FORMULÁRIO DE LOGIN</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
 
         <style>
-            body {
+            .form-my {
                 height: 100vh;
                 background: linear-gradient(135deg, #01093a, #1f0606);
                 display: flex;
@@ -17,7 +18,7 @@
                 color: white;
             }
 
-            .box {
+            .box-my {
                 background: rgba(255, 255, 255, 0.12);
                 backdrop-filter: blur(15px);
                 padding: 40px;
@@ -26,7 +27,7 @@
                 border: 3px solid rgba(255,255,255,0.1)
             }
 
-            .title{
+            .title-my{
                 color: white;
                 display: block;
             }
@@ -36,7 +37,7 @@
                 border: none;
             }
 
-            .btnv{
+            .btnv-my{
                 position: fixed;
                 top: 20px;    
                 right: 20px;  
@@ -44,20 +45,20 @@
             }
 
             .lab{
-                background: rgba(39, 26, 26, 0.16);
+                background: rgba(211, 211, 211, 0.16);
             }
 
             .lab:focus{
-                background: rgba(0, 0, 0, 0.38);
+                background: rgba(211, 211, 211, 0.38);
             }
         </style>
     </head>
-    <body>
+    <body class="form-my">
         <section>
-            <a class="nav-link active btnv" aria-current="page" href="index.php">Voltar</a>
+            <a class="nav-link active btnv-my" aria-current="page" href="index.php">Voltar</a>
         </section>
-        <div class="box">
-            <h1 class="title">FORMULÁRIO DE LOGIN</h1>
+        <div class="box-my">
+            <h1 class="title-my">FORMULÁRIO DE LOGIN</h1>
             <div class="container">
                 <form action="processa.php" method="POST">
                     <div class="mb-3">
